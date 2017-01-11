@@ -1,8 +1,6 @@
 QT += core
 QT -= gui
 
-CONFIG += c++11
-
 TARGET = awsadvertapi
 CONFIG += console
 CONFIG -= app_bundle
@@ -10,7 +8,9 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    awsrestrequest.cpp
+    awsrestrequest.cpp \
+    itemlookuprequest.cpp
 
 HEADERS += \
-    awsrestrequest.h
+    awsrestrequest.h \
+    itemlookuprequest.h
